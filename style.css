@@ -1,0 +1,218 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3{
+		font-family: 'Source Code Pro', 		monospace;
+}
+h1{
+	font-size: 40px;
+}
+h2{
+	font-size: 32px;
+}
+
+h3{
+	font-size: 24px;
+}
+h4{
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+a{
+	text-decoration: none;
+}
+header{
+    padding-top: 3rem;
+    padding-bottom: 3rem; 
+    background-color:  #e7332b;
+}
+hr{
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+}
+nav{
+  display: flex; 
+  flex: 1 0 100%; 
+  background-color: #343a40;
+  justify-content: space-around;
+  padding: 20px;
+ 
+  width: 100%;
+
+}
+footer{
+	width: 100%;
+	height: 66px;
+	background-color: #efefef;
+    
+}
+footer a img{
+	width: 200px;
+	height: auto;
+	margin: 8px 5vw 0 20vw;
+    flex: 1;
+    
+}
+/* .wrapper{
+	margin: 20px;
+/* } */
+/* @media only screen and (min-width: 700px){
+	.wrapper {
+	padding-top: 0px;
+    padding-bottom: 2rem; 
+    
+
+	}
+
+}  */
+
+   
+
+.hero-section{
+    display: flex;
+    
+}
+header .hero-section .personal-details{
+	text-align: justify;
+	display: grid;
+	justify-content: end;
+    padding-left: 2rem;
+    padding-right: 10rem;
+   color: #fff;
+    
+}
+header .personal-details h2, h3{
+	margin: 0px;
+}
+header .image img{
+	width: 250px;
+	height: auto;
+	border-radius: 50%;
+	margin-top: 12px;
+    margin-left: 6rem;
+   
+}
+nav .hero-icon{
+	font-size: 16px;
+	color: #ffff;
+	margin: 12px;
+}
+nav .hero-icon span{
+	font-family: 'Montserrat', sans-serif !important;
+    
+}
+nav span{
+	font-size: 16px;
+	margin-right: 12px;
+    color: #efefef;
+
+}
+
+.profile-section{
+	margin: 65px 0 24px 0;
+}
+
+.profile-section p{
+	max-width: 900px;
+	margin-top: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content:space-around;
+}
+
+.second-container{
+    display: flex;
+    ;
+}
+.education-section{
+	margin: 72px 0 24px 50px;
+    flex: 0.82;
+    
+}
+.education-section h2{
+	margin-bottom: 12px;
+}
+.education-section .secondary-text{
+	font-size: 18px;
+	font-weight: bold;
+    color:  #e7332b;
+    
+}
+
+
+
+.abilities-section{
+	margin: 72px 0 24px 50px;
+    justify-content: left;
+
+}
+.abilities-section h4{
+	margin: 24px 0 12px 0;
+    color:  #e7332b;;
+   
+}
+.abilities-section ul{
+	font-size: 16px;
+    justify-content: center;
+}
+.abilities-section ul li{
+	margin-bottom: 6px;
+	max-width: 900px;
+    list-style-type: none;
+
+}
+
+
+
+.employment-section{
+	margin: 72px 0 24px 50px;
+    justify-content: left;	
+
+}
+.employment-section h4{
+	margin: 24px 0 12px 0;
+    color:  #e7332b;;
+   
+}
+.employment-section ul{
+	font-size: 16px;
+    justify-content: center;
+}
+.employment-section ul li{
+	margin-bottom: 6px;
+	max-width: 900px;
+    list-style-type: none;
+
+}
+
+
+.skills-section{
+	margin: 72px 0 24px 0;
+}
+.skills-section h2{
+	margin: 24px 0 12px 0;
+   
+}
+.skills-section b{
+	color:  #e7332b;;
+}
+.skills-section p{
+	margin-bottom: 12px;
+    
+}
